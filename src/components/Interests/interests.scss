@@ -1,0 +1,11 @@
+.interests{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    .container{
+        .col-lg-3{
+            text-align: center;
+        }
+    }
+}

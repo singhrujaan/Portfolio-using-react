@@ -1,0 +1,42 @@
+ @import '../../global.scss';
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Merriweather:ital,wght@0,300;0,400;1,300&family=Open+Sans:wght@300&family=Poppins:wght@400;500;600&family=Roboto:wght@100;300;700;900&family=Ubuntu&display=swap');
+.menu-items{
+    background-image: linear-gradient(330deg, #5a7794  20%, rgb(0, 0, 0)  94%);
+    position: fixed;
+    z-index: 2;
+    width:300px;
+    height: calc(100vh - 70px);
+    top:70px;
+    display: flex;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction: column;
+    right: -300px;
+    transition: all 1s ease-in-out;
+    
+    ul{
+        width: 60%;
+        li{
+            padding:25px;
+            a{
+                text-decoration: none;
+                color: rgba(255, 255, 255, 0.774);
+                font-family: 'Poppins';
+                font-weight: 300;
+                font-size: 20px;
+                text-transform: capitalize;
+                
+                &:hover{
+                    font-weight: 900;
+                }
+            }
+        }
+        li:first-child{
+            padding-top: 50px;
+        }
+    }
+
+    &.active{
+        right: 0px;
+    }
+}

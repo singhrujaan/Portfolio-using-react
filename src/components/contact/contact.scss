@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap");
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.651);
+    background-image: linear-gradient(120deg,#1d1d1dfb 30%,#000000f1   50%, #000000  74%);
+    display: flex;
+    flex-direction: column;
+    color: cornsilk;
+    .container{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column;
+        padding:50px 0px;
+        background-color: rgba(150, 150, 150, 0.158);
+        h2{
+            margin:30px 0px;
+            font-family: 'Poppins';
+            overflow: hidden;
+            letter-spacing: 4px;
+            color: rgb(236, 0, 47);
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            input,textarea,button{
+                margin:10px;
+                width:400px;
+                border-radius: 5px;
+                border:none
+            }
+            textarea{
+                height: 150px;
+            }
+            button{
+                width:100px;
+                margin-left: 40%;
+                background-color: crimson;
+                padding:5px;
+                color: white;
+                font-weight: 300;
+                overflow: hidden;
+            }
+            span{
+                overflow: hidden;
+            }
+
+        }
+        
+    }
+    h6{
+        margin-top: 10px;
+        
+        overflow: hidden;
+        .small{
+            margin:10px 0px;
+            font-size: 15px;
+        }
+    }
+    
+    
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    overflow: hidden;
+    a{
+        img{
+            height:50px;
+            width: 50px;
+        }
+    }
+   }
+@media screen and (max-width:600px){
+    .container{
+        form{
+            input,textarea{
+                max-width:220px;
+            }
+        }
+    }
+    h6{
+       display: grid;
+    }
+}
