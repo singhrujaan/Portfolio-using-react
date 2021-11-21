@@ -1,6 +1,7 @@
 import "./projects.scss";
 import news from './images/news.png'
 import tensorflow from './images/tensorflow.png'
+import weather from './images/weather.JPG'
 import personal from "./images/portfolio.png";
 import Rotate from 'react-reveal/Rotate'
 import Slide from 'react-reveal/Slide';
@@ -39,6 +40,16 @@ export default function Projects() {
           link: "https://github.com/singhrujaan/",
           desc:
             "Personal Portfolio site using react",
+        },
+        {
+          id: 4,
+          name: "Weather App",
+          title: "Weather App",
+          img:
+            weather,
+          link: "https://github.com/singhrujaan/weatherApp",
+          desc:
+            "weather app site using react that fetches api from server and displays the current weather condition",
         },
       ];
 
