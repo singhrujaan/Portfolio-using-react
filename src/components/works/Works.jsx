@@ -34,7 +34,7 @@ export default function Works() {
             <span className="description">
             <Flip left cascade><h1>Bachelors</h1></Flip>
               <p>
-                <b><Zoom right cascade>ACHS(Asia College Of Higher Studies)</Zoom></b>
+                <b><Zoom right cascade>ACHS(Asian College Of Higher Studies)</Zoom></b>
               </p>
             </span>
           </Zoom>
